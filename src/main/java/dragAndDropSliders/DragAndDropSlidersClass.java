@@ -20,8 +20,8 @@ public class DragAndDropSlidersClass {
 
 	@BeforeMethod
 	public void setup(Method m, ITestContext ctx) throws MalformedURLException {
-		String username = System.getenv("LT_USERNAME") == null ? "thumarbhavin.786" : System.getenv("LT_USERNAME");
-		String authkey = System.getenv("LT_ACCESS_KEY") == null ? "TBcrP05QkFLjiomKmAgX9y4fRdgikSsx7CsAFN5pRFoy8Iu2fj" : System.getenv("LT_ACCESS_KEY");
+		String username = System.getenv("LT_USERNAME") == null ? "ajaysonawanetest" : System.getenv("LT_USERNAME");
+		String authkey = System.getenv("LT_ACCESS_KEY") == null ? "LT_ZbjEr7Z7dMDZiqGqzneLJeIWqTSdfjFoe13KnVkMv2OIbBC" : System.getenv("LT_ACCESS_KEY");
 		String hub = "@hub.lambdatest.com/wd/hub";
 
 		DesiredCapabilities caps = new DesiredCapabilities();
@@ -80,4 +80,5 @@ public class DragAndDropSlidersClass {
 	}
 
 }
+
 
